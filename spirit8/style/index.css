@@ -1,0 +1,1078 @@
+.header {
+	width: 100%;
+	color: #fff;
+	font-family: Ltb;
+	padding-top: 45px;
+}
+
+.header::after {
+	content: "";
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+.logo {
+	font-size: 24px;
+	font-family: Ltb;
+	text-transform: uppercase;
+	color: #fff;
+	float: left;
+	margin-bottom: 30px;
+	margin-top: 5px;
+	transition: all .2s linear;
+}
+
+.logo:hover {
+	transform: scale(1.5);
+}
+
+.nav {
+	float: right;
+	overflow: hidden;
+}
+
+.nav a {
+	text-transform: uppercase;
+	font-family: Ltb;
+	color: #fff;
+	border-bottom: 3px solid #292929;
+	font-size: 14px;
+	padding: 0 15px;
+	height: 40px;
+	line-height: 40px;
+	transition: all .3s ease-in-out;
+}
+
+.nav a:hover {
+	border-bottom: 3px solid #fcac45;
+}
+
+#nav {
+	display: none;
+}
+
+.menu {
+	width: 50px;
+	height: 50px;
+	float: right;
+	cursor: pointer;
+	display: none;
+	margin-right: 10px;
+}
+
+.menu span {
+	width: 80%;
+	height: 5px;
+	background: #fff;
+	float: left;
+	margin: 9px auto 0;
+}
+
+
+/* header end */
+
+.fullscreenvideo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -100;
+	width: 100%;
+}
+
+.banner {
+	width: 100%;
+	/*	background:#000;
+*/
+	padding-top: 140px;
+	text-align: center;
+}
+
+.banner h1 {
+	font-family: Osl;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: #999999;
+}
+
+.banner h1 span {
+	color: #fcac45;
+	font-family: osb;
+}
+
+.banner a {
+	width: 50px;
+	height: 50px;
+	background: url('../images/banner_btn.png') no-repeat left top;
+	overflow: hidden;
+	border: 1px solid #c3c3c3;
+	border-radius: 100%;
+	margin-top: 280px;
+	margin-bottom: 90px;
+}
+
+
+/* banner end */
+
+.about {
+	background-color: #FFFFFF;
+	width: 100%;
+	padding-top: 100px;
+}
+
+.about_box {
+	width: 100%;
+	padding-bottom: 100px;
+	background: url('../images/about_bg.png') no-repeat 15px top;
+}
+
+.about_box:after {
+	content: "";
+	display: block;
+	clear: both;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+.about_content {
+	width: 40%;
+	float: right;
+	text-align: left;
+	overflow: hidden;
+}
+
+.about_content h3 {
+	font-size: 18px;
+	font-family: Osl;
+	text-transform: uppercase;
+	text-indent: 4px;
+}
+
+.about_content h1 {
+	text-transform: uppercase;
+	font-size: 35px;
+	font-family: Osb;
+	line-height: 60px;
+	height: 60px;
+	white-space: nowrap;
+}
+
+.about_content h1 span:first-child {
+	border-bottom: 5px solid #fcac45;
+}
+
+.about_content h1 span:last-child {
+	font-family: Ossb;
+}
+
+.about_content p {
+	margin-top: 32px;
+	color: #6c6c6c;
+	margin-bottom: 50px;
+}
+
+.about_content ul li {
+	background: url('../images/about_ul_bg.png') no-repeat left center;
+	text-indent: 15px;
+	font-size: 18px;
+	color: #6c6c6c;
+	line-height: 30px;
+	height: 30px;
+	white-space: nowrap;
+}
+
+.about_content ul li span {
+	font-family: Ossb;
+	margin-right: 2px;
+}
+
+.about_content .btn {
+	background: #fff url('../images/about_btn.png') no-repeat 20px 16px;
+	margin-top: 53px;
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #6c6c6c;
+	border-radius: 5px;
+	padding: 0px 24px;
+	padding-left: 40px;
+	text-transform: uppercase;
+	transition: all .5s ease-in-out;
+}
+
+.about_content .btn:hover {
+	background: rgba(94, 94, 94, .3) url('../images/about_btn.png') no-repeat 20px 16px;
+}
+
+
+/* about end */
+
+.team {
+	width: 100%;
+	background: #000;
+	text-align: center;
+	padding: 55px 0px;
+}
+
+.team-title {
+	font-size: 44px;
+	text-transform: uppercase;
+	color: #fff;
+	background: url('../images/team-title-bg.png') no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom: 90px;
+}
+
+.team-title span {
+	font-family: Ossb;
+}
+
+.teamlist {
+	width: 100%;
+	display: flex;
+}
+
+.teamlist> div {
+	flex-basis: 25%;
+}
+
+.teamlist .image {
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+	border: 0px;
+	border-radius: 100%;
+	margin: 0 auto;
+}
+
+.teamlist .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.teamlist h3 {
+	font-family: Ossb;
+	font-size: 20px;
+	color: #fff;
+	text-transform: capitalize;
+	margin-top: 22px;
+}
+
+.teamlist span {
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.teamlist p {
+	margin-top: 40px;
+	color: #fff;
+}
+
+.teammore {
+	width: 100%;
+	text-align: center;
+}
+
+.teammore span {
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 1px;
+	margin-right: 10px;
+	margin-top: 74px;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.teammore span:hover {
+	background: #fcac45;
+}
+
+.container input {
+	display: none;
+}
+
+
+input[id="tu1"]:checked~.t1 {
+	display: flex;
+}
+input[id="tu1"]:checked~.teammore>label .xz1{
+	background-color: #fcac45;
+}
+input[id="tu1"]:checked~.t2,
+input[id="tu1"]:checked~.t3 {
+	display: none;
+}
+
+input[id="tu2"]:checked~.t2 {
+	display: flex;
+}
+input[id="tu2"]:checked~.teammore>label .xz2{
+	background-color: #fcac45;
+}
+
+input[id="tu2"]:checked~.t1,
+input[id="tu2"]:checked~.t3 {
+	display: none;
+}
+
+input[id="tu3"]:checked~.t3 {
+	display: flex;
+}
+input[id="tu3"]:checked~.teammore>label .xz3{
+	background-color: #fcac45;
+}
+
+input[id="tu3"]:checked~.t2,
+input[id="tu3"]:checked~.t1 {
+	display: none;
+}
+
+
+/* team end */
+
+.services {
+	width: 100%;
+	background: #fff;
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.services-title {
+	font-size: 44px;
+	text-transform: uppercase;
+	background: url('../images/services-title-bg.png') no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom: 41px;
+}
+
+.services-title span {
+	font-family: Ossb;
+}
+
+.services-desc {
+	color: #808080;
+	font-family: Osi;
+}
+
+.serviceslist {
+	display: flex;
+	margin-top: 106px;
+}
+
+.serviceslist>div {
+	flex-basis: 25%;
+}
+
+.serviceslist .image {
+	border: 6px solid #fcac45;
+	border-radius: 100%;
+	width: 50%;
+	overflow: hidden;
+	background: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.serviceslist .image:hover {
+	border: 6px solid #000000;
+}
+
+.serviceslist .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.serviceslist h3 {
+	font-family: Ossb;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin: 28px 0px;
+	overflow: hidden;
+}
+
+.serviceslist p {
+	color: #595959;
+}
+
+
+/* services end */
+
+.clients {
+	width: 100%;
+	text-align: center;
+	background: #000;
+	padding: 55px 0px;
+}
+
+.clients-title {
+	font-size: 44px;
+	text-transform: uppercase;
+	color: #fff;
+	background: url('../images/team-title-bg.png') no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom: 90px;
+}
+
+.clients-title span {
+	font-family: Ossb;
+}
+
+.clientslist {
+	width: 100%;
+	display: flex;
+	
+}
+
+
+
+
+input[id="_cl_list1"]:checked~.c1 {
+	display: flex;
+}
+input[id="_cl_list1"]:checked~.c2,
+input[id="_cl_list1"]:checked~.c3 {
+	display: none;
+}
+
+
+input[id="_cl_list2"]:checked~.c2 {
+	display: flex;
+}
+input[id="_cl_list2"]:checked~.c1,
+input[id="_cl_list2"]:checked~.c3 {
+	display: none;
+}
+
+
+input[id="_cl_list3"]:checked~.c3 {
+	display: flex;
+}
+input[id="_cl_list3"]:checked~.c2,
+input[id="_cl_list3"]:checked~.c1 {
+	display: none;
+}
+
+
+
+input[id="_cl_list1"]:checked~.clientsmore>label .cl1{
+	background-color: #fcac45;
+}
+input[id="_cl_list2"]:checked~.clientsmore>label .cl2{
+	background-color: #fcac45;
+}
+input[id="_cl_list3"]:checked~.clientsmore>label .cl3{
+	background-color: #fcac45;
+}
+
+
+.clientslist>div {
+	flex-basis: 20%;
+}
+
+.clientslist .image {
+	overflow: hidden;
+	border: 0px;
+	margin: 0 auto;
+}
+
+.clientslist .image img {
+	width: 100%;
+	height: 100%;
+}
+
+.clientsmore {
+	width: 100%;
+	text-align: center;
+}
+.clientsmore label span{
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 1px;
+	margin-right: 10px;
+	margin-top: 74px;
+	cursor: pointer;
+}
+
+
+.clientsmore label span:hover {
+	background: #fcac45;
+}
+
+
+/* clients end */
+
+.work{
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.work>.container{
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+	
+}
+
+.work>.container::after{
+	content: '';
+	width: 0px;
+	height: 0px;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+.work>.container>h1{
+	text-transform: uppercase;
+	color: #222222;
+	font-size: 44px;
+	font-family: Osl;
+}
+.work>.container>h1 span{
+	font-family: Ossb;
+}
+.work>.container>img{
+	margin-top: 30px;
+}
+.work>.container>p{
+	margin-top: 40px;
+	color: #797979;
+	font-family: Osi;
+	font-size: 16px;
+}
+.work>.container>.worklist{
+	margin-top: 140px;
+}
+.work>.container>.worklist>table{
+	display: none;
+	/*float: left;*/
+}
+.work>.container>.worklist>input{
+	display: none;
+}
+.work>.container>.worklist>input:checked+.work_list_pic{
+	display: block;
+}
+.work>.container>.worklist>input[class='work1']:checked~.work_list_header>ul>label[class~='label1']{
+	color: #222222;
+}
+.work>.container>.worklist>input[class='work2']:checked~.work_list_header>ul>label[class~='label2']{
+	color: #222222;
+}
+.work>.container>.worklist>input[class='work3']:checked~.work_list_header>ul>label[class~='label3']{
+	color: #222222;
+}
+.work>.container>.worklist>input[class='work4']:checked~.work_list_header>ul>label[class~='label4']{
+	color: #222222;
+}
+.work>.container>.worklist>.work_list_header >span{
+	float: left;
+}
+.work>.container>.worklist>.work_list_header ul{
+	float: right;
+}
+.work>.container>.worklist>.work_list_header>ul label{
+	display: inline-block;
+	border-right: 1px solid #999999;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #999999;
+	cursor: pointer;
+}
+.work>.container>.worklist>.work_list_header ul label:hover{
+	color: #505050;
+}
+.work>.container>.worklist>.work_list_header:after{
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+.work>.container>.worklist>.work_list_header{
+	margin-bottom: 35px;
+	margin-top: 0px;
+	/*float: left;*/
+}
+.work>.container>.worklist>table{
+	margin: 0 auto;
+	
+	margin-bottom: 100px;
+}
+
+.work>.container>.worklist>table tr td{
+	width: 240px;
+	height: 240px;
+	cursor: pointer;
+	background-image: url(../images/work-img.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	border: 20px solid white;
+}
+.work>.container>.worklist>table tr td span{
+	display: none;
+}
+.work>.container>.worklist>table tr td:hover{
+	opacity: .5;
+}
+.work>.container>.worklist>table tr td:hover span{
+	display: block;
+	font-size: 70px;
+	color: red;
+	opacity: 1;
+}
+@media screen and (max-width:1200px){
+	.work>.container>.worklist>table .td{
+		width: 200px;
+		height: 200px;
+	}
+}
+@media screen and (max-width:1000px){
+	.work>.container>.worklist>table .td{
+		width: 130px;
+		height: 130px;
+	}
+	.work>.container>.worklist>table tr .td{
+		padding: 10px 10px;
+		border: 10px solid white;
+	}
+
+}
+@media screen and (max-width:700px){
+	.work>.container>.worklist>table .td{
+		width: 100px;
+		height: 100px;
+	}
+	.work>.container>.worklist>table tr .td{
+		padding: 10px 10px;
+		border: 10px solid white;
+	}
+
+}
+@media screen and (max-width:611px){
+	.work>.container>.worklist>.work_list_header span{
+		display: none;
+	}
+	.work>.container>.worklist>.work_list_header ul{
+		float: none;
+		width: 100%
+		margin: 0 auto;
+	}
+	.work>.container>.worklist>table .td{
+		width: 90px;
+		height: 90px;
+	}
+	.work>.container>.worklist>table tr .td{
+		padding: 2px 2px;
+		border: 10px solid white;
+	}
+
+}
+@media screen and (max-width:440px){
+	.work>.container>.worklist>.work_list_header span{
+		display: none;
+	}
+	.work>.container>.worklist>.work_list_header ul{
+		float: none;
+		width: 100%
+		margin: 0 auto;
+	}
+	.work>.container>.worklist>table .td{
+		width: 70px;
+		height: 70px;
+	}
+	.work>.container>.worklist>table tr .td{
+		padding: 2px 2px;
+		border: 2px solid white;
+	}
+
+}
+/* work end */
+
+.test {
+	width: 100%;
+	text-align: center;
+	background: #000;
+	padding: 55px 0px;
+}
+
+.test-title {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #fff;
+	background: url(../images/team-title-bg.png) no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom: 90px;
+}
+
+/*.test-title label {
+	font-family: Ossb;
+}
+
+.btn_1 {
+	visibility: hidden;
+}
+
+.btn_2 {
+	visibility: hidden;
+}
+
+.btn_3 {
+	visibility: hidden;
+}
+
+.teamlist1,
+.teamlist2,
+.teamlist3 {
+	display: none;
+}
+
+.btn_1:checked+.teamlist1 {
+	display: flex;
+}
+
+.btn_2:checked+.teamlist2 {
+	display: flex;
+}
+
+.btn_3:checked+.teamlist3 {
+	display: flex;
+}*/
+
+.test-desc {
+	margin-bottom: 52px;
+}
+
+.test-desc:last-of-type {
+	margin-bottom: 0px;
+}
+
+.testmore {
+	width: 100%;
+	text-align: center;
+}
+
+.testmore span {
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 1px;
+	margin-right: 10px;
+	margin-top: 74px;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.testmore span:hover {
+	background: #fcac45;
+}
+
+
+/* test end  */
+
+.contact {
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	padding: 100px 0px;
+}
+
+.contact-title {
+	font-size: 44px;
+	text-transform: uppercase;
+	background: url('../images/services-title-bg.png') no-repeat center bottom;
+	padding-bottom: 20px;
+	margin-bottom: 41px;
+}
+
+.contact-title span {
+	font-family: Ossb;
+}
+
+.contact-desc {
+	color: #808080;
+	font-family: Osi;
+	margin-bottom: 110px;
+}
+
+.contact-form {
+	margin-top: 100px;
+}
+
+.contact-row>div {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	text-align: left;
+}
+
+.contact-row>div input {
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+.contact-row>div input::placeholder {
+	font-size: 20px;
+}
+
+.contact-row>div h4 {
+	text-transform: capitalize;
+}
+
+.contact-row>div h4 sup {
+	color: red;
+}
+
+.contact-row::after {
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	clear: both;
+}
+
+.contact-row:nth-child(2) {
+	margin-top: 31px;
+}
+
+.contact-row:nth-child(2)> div {
+	width: 100%;
+	display: block;
+}
+
+.contact-row:nth-child(2)> div textarea {
+	width: 95%;
+	font-size: 20px;
+}
+
+.contact-row:last-child {
+	text-align: right;
+	width: 95.5%;
+}
+
+.contact-row:last-child button {
+	width: 15%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fcac45;
+	color: #fff;
+	font-size: 16px;
+	font-family: Ossb;
+	border: 0px;
+	margin-top: 31px;
+}
+
+
+/* contact end */
+
+.footer {
+	width: 100%;
+	background: #000;
+	padding: 31px 0px;
+}
+
+.copyright {
+	float: left;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.copyright span {
+	font-family: Ossb;
+}
+
+.links {
+	float: right;
+	margin-right: 55px;
+}
+
+.links a {
+	border: 3px solid #b2b2b2;
+	border-radius: 100%;
+	overflow: hidden;
+	background: #222222;
+	width: 30px;
+	height: 31px;
+	margin-right: 14px;
+}
+
+.links a:last-child {
+	margin-right: 0px;
+}
+
+
+/* 兼容处理 */
+
+
+/* x <= 700 */
+
+@media screen and (max-width:700px) {
+	.nav {
+		display: none;
+	}
+	.menu {
+		display: inline-block;
+		transition: all .2s linear;
+	}
+	.nav {
+		width: 100%;
+	}
+	.nav a {
+		width: 100%;
+		text-align: center;
+	}
+	input[name="nav"]:checked~ .nav {
+		display: block;
+	}
+	input[name='nav']:checked+ .menu {
+		transform: rotate(90deg);
+	}
+}
+
+
+/* about */
+
+@media screen and (max-width:1000px) {
+	.about_box {
+		background: none;
+	}
+	.about_content {
+		width: 100%;
+	}
+}
+
+
+/* team */
+
+
+/* x<=550px 处理头像 */
+
+@media screen and (max-width:550px){
+	input[id="tu1"]:checked~.t1 {
+	display: block;
+}
+	.teamlist>div{
+		flex-basis: 100%;
+		text-align:left;
+		margin-bottom:15px;
+		overflow: hidden;
+	}
+
+	.teamlist>div::after{
+		content:"";
+		width:0;
+		height:0;
+		overflow: hidden;
+		display: block;
+		clear:both;
+	}
+
+	.teamlist div>.image{
+		float:left;
+		margin-right:10px;
+	}
+
+	.teamlist h3{
+		margin-top:0px;
+	}
+
+	.teamlist div>span,.teamlist div>p{
+		float:left;
+	}
+	.teamlist span{
+	}
+	.teamlist p{
+		margin-top:10px;
+		width:60%;
+	}
+
+	/* 处理图标 */
+	.services-title{
+		font-size:24px;
+		text-align:center;
+	}
+	.serviceslist{
+		display: block;
+	}
+	.serviceslist>div{
+		flex-basis: 100%;
+		text-align:left;
+		margin-bottom:15px;
+		overflow: hidden;
+	}
+
+	.serviceslist>div::after{
+		content:"";
+		width:0;
+		height:0;
+		overflow: hidden;
+		display: block;
+		clear:both;
+	}
+
+	.serviceslist .image{
+		float:left;
+		margin-right:10px;
+		width:35%;
+	}
+
+	.serviceslist h3{
+		margin-top:0px;
+	}
+
+	.serviceslist p{
+		float:left;
+		margin-top:10px;
+		width:60%;
+	}
+}
+
+@media screen and (max-width:400px){
+	.teamlist p{
+		width:49%;
+	}
+
+	.serviceslist p{
+		width:50%;
+	}
+}
+
+@media screen and (max-width:610px){
+	.work-list-title{
+		display: none;
+	}
+
+	.work-nav{
+		width:95%;
+	}
+}
+
+@media screen and (max-width:500px){
+	.contact-row:last-child button{
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width:630px){
+	.links{
+		width:100%;
+		margin:0px;
+		margin-top:15px;
+	}
+
+	.links a{
+		margin-right:8%;
+	}
+
+	.links a:last-child{
+		margin-right:0px;
+	}
+}
