@@ -10,7 +10,7 @@ $(function(){
             $(".adver li").eq(index).addClass("highLight").siblings().removeClass("highLight");
         }
         //保存多张图片
-        var imgs=["banner1.jpg","banner2.jpg"];
+        var imgs=["host1.jpg","host2.jpg"];
         var index=0;
 
         //鼠标移到数字上触发事件
