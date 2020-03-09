@@ -1,0 +1,65 @@
+body,div,ol,ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+	font-weight: normal;
+}
+ol,li,ul{
+	list-style: none;
+}
+p{
+	color:#8c9398;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+label,span{
+	display: inline-block;
+}
+body{
+	font-family: Osl;
+	color:#353535;
+}
+
+html{
+	font-size:16px;
+}
+input{border: none;border-style: none;}
+.container{
+	margin:0 auto;
+}
+img{width: 100%;height: 100%;}
+.container::after{
+	content:"";
+	width:0;
+	height:0;
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+
+/* 媒体查询 设置内容居中 */
+
+/* x <= 768px 小尺寸 */
+@media screen and (max-width:992px){
+	.container{
+		width:100%;
+	}
+}
+
+
+/* x >= 992px 中等尺寸*/
+@media screen and (min-width:992px){
+	.container{
+		width:970px;
+	}
+}
+
+/* x>= 1200  大尺寸*/
+@media screen and (min-width:1200px){
+	.container{
+		width:1170px;
+	}
+}
